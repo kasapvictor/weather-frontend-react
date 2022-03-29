@@ -1,9 +1,12 @@
 .cities {
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .cities__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
   padding: 0 20px;
 
 

@@ -115,7 +115,8 @@
   "parcel-namer-rewrite": {
     "rules": {
       "(.*)\\.(woff2?|ttf)": "fonts/$1.$2",
-      "(.*)\\.(svg|png|gif|jpg|jpeg)": "img/$1.$2",
+      "(.*)\\.(png|gif|jpg|jpeg)": "img/$1.$2",
+      "(.*)\\.(svg)": "svg/$1.$2",
       "(.*)\\.(css)": "css/$1.{hash}.$2",
       "(.*)\\.(js)": "js/$1.{hash}.$2"
     }

@@ -27,7 +27,7 @@ test-coverage: # покрытие тестами
 # запуск веб сервера
 # npx parcel src/index*.html --open
 server: rm-cache rm-dist
-	npx parcel src/*.html --dist-dir dist/ --port 1234 --open --target default
+	npx parcel src/*.html --dist-dir dist/ --port 1234 --target default
 
 # сборка проекта в папку prod
 # перед сборкой папка prod очищается

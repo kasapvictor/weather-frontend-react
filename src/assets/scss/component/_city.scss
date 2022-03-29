@@ -1,0 +1,44 @@
+.city {
+  padding: 20px;
+  border: 1px solid $color-2;
+  border-radius: 6px;
+}
+
+.city_title {
+  padding-top: 10px;
+}
+
+.city__date {
+  width: 100%;
+  color: $color-8;
+}
+
+.city__body {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.city__weather {
+  font-size: 26px;
+}
+
+.city__image {
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+}
+
+.city__footer {
+  padding-top: 20px;
+}
+
+.city__weather-extra {
+  //display: flex;
+  //flex-wrap: wrap;
+  @include columns(48%);
+}
+
+.city__weather-extra-item {
+  //width: 48%;
+}

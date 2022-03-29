@@ -1,0 +1,12 @@
+.button {
+  padding: 21px 32px;
+  font-size: $font-size-m;
+  border-radius: 6px;
+  background-color: $color-8;
+  color: $color-5;
+  font-weight: $font-weight-2;
+  @extend %transition-2;
+  &:hover {
+    background-color: $color-9;
+  }
+}
