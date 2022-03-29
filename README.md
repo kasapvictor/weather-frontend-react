@@ -1,6 +1,6 @@
 # Link
 
-https://kasapvictor.github.io/weather-frontend2/dist
+https://kasapvictor.github.io/weather-frontend/dist
 
 ----
 
