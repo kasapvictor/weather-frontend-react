@@ -20,6 +20,7 @@
 }
 
 .city__weather {
+  min-width: 80px;
   font-size: 26px;
 }
 
@@ -34,11 +35,5 @@
 }
 
 .city__weather-extra {
-  //display: flex;
-  //flex-wrap: wrap;
   @include columns(48%);
-}
-
-.city__weather-extra-item {
-  //width: 48%;
 }
