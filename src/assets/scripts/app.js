@@ -37,5 +37,6 @@ export default () => {
   const watchedState = onChange(state, render(state, elements));
 
   const { form } = elements;
-  form.addEventListener('submit', e => formHandler(e, form, watchedState));
+  form.addEventListener('submit', (e) => formHandler(e, form, watchedState));
+  console.log('---12');
 };
