@@ -9,9 +9,15 @@
   grid-gap: 20px;
   padding: 0 20px;
 
-
   @include media-desktop-m {
-    padding: 0 20px 20px;
-    overflow-x: auto;
+
+  }
+
+  @include media-tablet-x {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media-mobile-x {
+    grid-template-columns: 1fr;
   }
 }
