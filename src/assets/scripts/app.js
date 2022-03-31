@@ -38,5 +38,4 @@ export default () => {
 
   const { form } = elements;
   form.addEventListener('submit', (e) => formHandler(e, form, watchedState));
-  console.log('---12');
 };
